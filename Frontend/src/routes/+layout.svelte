@@ -3,6 +3,7 @@
 	import { onDestroy, onMount } from 'svelte';
 	import LogoPopup from '$lib/Components/LogoPopup.svelte';
 	import Navbar from '$lib/Components/Navbar.svelte';
+	import Header from '$lib/Components/Header.svelte';
 
 	onMount(() => {
 		setTimeout(() => {
@@ -14,22 +15,28 @@
 	});
 </script>
 
-<div class="loader" class:fadeOut={isPageLoaded}>
-	{#if !isPageLoaded}
+<!-- {#if !isPageLoaded}
+	<div class="loader" class:fadeOut={isPageLoaded}>
 		<LogoPopup />
-	{/if}
+	</div>
+{/if} -->
+<Header />
+<div class="slot">
+	<slot />
 </div>
-
-<slot />
 <Navbar />
 
 <style>
-	.loader {
+	/* .loader {
 		opacity: 1;
 		transition: opacity 0.5s ease;
 	}
 
 	.fadeOut {
 		opacity: 0;
+	} */
+	.slot {
+		margin-bottom: 10vh;
+		margin-top: 9.4vh;
 	}
 </style>

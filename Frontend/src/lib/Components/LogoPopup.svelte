@@ -43,7 +43,9 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		height: 85vh;
+		height: 100vh;
+		background-color: white;
+		z-index: 999;
 	}
 	.popContainer {
 		display: flex;
