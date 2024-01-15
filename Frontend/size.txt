@@ -1,0 +1,20 @@
+/* Small Screens (e.g., larger phones) */
+@media only screen and (min-width: 480px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* Medium Screens (Tablets) */
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+/* Large Screens (Desktops) */
+@media only screen and (min-width: 1024px) {
+  body {
+    font-size: 22px;
+  }
+}
