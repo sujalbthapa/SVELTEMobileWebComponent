@@ -38,7 +38,7 @@
 	});
 </script>
 
-<title>HK - Login</title>
+<title>Hill & Knowlton - Login</title>
 
 <!-- {#if isDivVisible}
 	<PasswordPopup {Message} />
@@ -98,7 +98,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		height: 85vh;
+		height: 80vh;
 	}
 	.mainContainer {
 		display: flex;

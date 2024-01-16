@@ -7,13 +7,14 @@
 		'Hill & Knowlton is the global strategic communications leader for transformation. A trusted partner for sustainable value creation and protection, we help brands, businesses and leaders build reputation, manage risk, and create breakthrough opportunities for growth. Founded in 1927, today’s Hill & Knowlton operates 70 offices in over 30 countries, providing advisory, public relations and creative solutions to local and global clients. Our global team offers integrated strategic services, grounded in deep sector expertise, and enabled by creativity and intelligence. Headquartered in New York, Hill & Knowlton is part of WPP, the world’s largest marketing and communications services company.';
 </script>
 
+<title>Hill & Knowlton - {usrName}</title>
 <section class="usrProfile">
 	<div class="usrImgs">
 		<div class="usrBnr">
-			<img src="../../../../static/banner.jpg" alt="" />
+			<img src="/banner.jpg" alt="Banner" />
 		</div>
 		<div class="usrProIm">
-			<img src="../../../../static/HKLogo.png" alt="" />
+			<img src="/HKLogo.png" alt="Logo" />
 		</div>
 	</div>
 	<div class="usrNmUr">
@@ -88,7 +89,7 @@
 		padding: 10px;
 		margin-top: -15px;
 		box-shadow:
-			-1px -1px 20px rgba(0, 0, 0, 0.056),
+			-1px -1px 20px rgba(0, 0, 0, 0.156),
 			inset -5px -5px 10px rgba(255, 255, 255, 0.976);
 	}
 
@@ -106,8 +107,9 @@
 		padding: 3px 5px;
 		grid-area: three;
 		box-shadow:
-			-1px -1px 20px rgba(0, 0, 0, 0.056),
+			-1px -1px 20px rgba(0, 0, 0, 0.156),
 			inset -5px -5px 10px rgba(255, 255, 255, 0.976);
+		border-radius: 0 0 25px 25px;
 	}
 	.usrDesc p {
 		margin-top: 5px;

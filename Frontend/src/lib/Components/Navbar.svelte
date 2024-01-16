@@ -4,19 +4,19 @@
 
 <nav class="navBar">
 	<div class="navLogout">
-		<a href="/logout"><i class="bx bx-log-out"></i></a>
+		<a href="/logout" target="_self"><i class="bx bx-log-out"></i></a>
 	</div>
 	<div class="navEmail">
-		<a href="/{user}/email"><i class="bx bx-envelope"></i></a>
+		<a href="/{user}/email" target="_self"><i class="bx bx-envelope"></i></a>
 	</div>
 	<div class="navHome">
-		<a href="/"><i class="bx bx-home"></i></a>
+		<a href="/" target="_self"><i class="bx bx-home"></i></a>
 	</div>
 	<div class="navNoti">
-		<a href="/notifications"><i class="bx bx-bell"></i></a>
+		<a href="/notifications" target="_self"><i class="bx bx-bell"></i></a>
 	</div>
 	<div class="navProfile">
-		<a href="/{user}/profile"><i class="bx bx-face"></i></a>
+		<a href="/{user}/profile" target="_self"><i class="bx bx-face"></i></a>
 	</div>
 </nav>
 

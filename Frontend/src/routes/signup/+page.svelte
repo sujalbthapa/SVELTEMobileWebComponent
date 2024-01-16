@@ -31,7 +31,7 @@
 	}
 </script>
 
-<title>HK - Signup</title>
+<title>Hill & Knowlton - Signup</title>
 
 <section>
 	<div class="mainContainer">
@@ -113,7 +113,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		height: 85vh;
+		height: 80vh;
 	}
 	.mainContainer {
 		display: flex;

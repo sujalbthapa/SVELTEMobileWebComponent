@@ -3,7 +3,7 @@
 </script>
 
 <nav class="navBar">
-	<img src="HKLogo.png" alt="HK Logo" />
+	<img src="/HKLogo.png" alt="HK Logo" />
 	<p>Hill <span>&</span> Knowlton</p>
 </nav>
 
@@ -22,6 +22,7 @@
 		align-items: center;
 		padding: 1px;
 		font-size: 1.5rem;
+		z-index: 999;
 	}
 	img {
 		width: 3rem;
